@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tu.mybatisDemo.entity.Mapping.EmployeeMapping">
+
+    <cache type="org.mybatis.caches.redis.RedisCache"></cache>
+
+
+    <!--避免因为数据库与程序中变量出现不同名，会出现差误。所以使用resultMap-->
+    <resultMap id="res_employee" type="com.tu.mybatisDemo.entity.Employee">
+        <id property="id" column="id"></id>
+        <result property="lastName" column="last_name"></result>
+        <result property="gender" column="gender"></result>
+        <result property="email"  column="email"></result>
+    </resultMap>
+
+    <!-- 查询employee -->
+    <select id="getEmployeeOne" resultMap="res_employee">
+        select id,last_name, gender, email from tbl_employee where id = #{id}
+    </select>
+
+    <!-- 新增employee useGeneratedKeys使用自增得生成主键策略 keyProperty将生成得id返还给employ bean中得id字段-->
+    <insert id="incrEmployee" useGeneratedKeys="true" keyProperty="id">
+        insert into tbl_employee(last_name,gender,email)
+        values(#{lastName},#{gender},#{email})
+    </insert>
+
+    <!-- 修改employee -->
+    <update id="updEmployee">
+        update tbl_employee
+              set last_name = #{lastName}
+        where id = #{id}
+    </update>
+
+    <!-- 删除employee -->
+    <delete id="decrEmployee">
+        delete from tbl_employee where id = #{id}
+    </delete>
+
+    <!-- 根据多个条件查询employee -->
+    <select id="getEmployeeByCondition" resultMap="res_employee">
+        select id, last_name, gender, email from ${param1}_employee where last_name = '${lastName}' and email = '${email}'
+    </select>
+
+    <!-- 查询返回list的结果集 -->
+    <select id="getListEmployeeByLastName" resultMap="res_employee">
+        select id, last_name, gender, email from tbl_employee where last_name like concat('%',#{lastName},'%')
+    </select>
+
+    <!-- 查询返回Map的结果集 -->
+    <select id="getMapEmployeeByLastName" resultType="map">
+        select id, last_name, gender, email from tbl_employee where last_name = #{lastName}
+    </select>
+
+    <!-- 查询返回多个结果的Map结果集-->
+    <select id="getMapEmployeeByLikeLastName" resultMap="res_employee">
+        select id, last_name, gender, email from tbl_employee where last_name like concat('%',#{lastName},'%')
+    </select>
+
+    <!-- 级联查询结果集，内部对象.获取属性 -->
+    <resultMap id="res_employee_assoc1" type="com.tu.mybatisDemo.entity.Employee">
+        <id property="id" column="id"/>
+        <result property="lastName" column="last_name"/>
+        <result property="gender" column="gender"/>
+        <result property="email" column="email"/>
+        <result property="dept.id" column="did"/>
+        <result property="dept.deptName" column="dept_name"/>
+    </resultMap>
+
+    <select id="getEmployeeByOneAssoc1" resultMap="res_employee_assoc1">
+        select e.id id, e.last_name last_name, e.gender gender, e.email email, d.id did, d.dept_name dept_name
+        from tbl_employee e
+        left join tbl_department d on e.dept_id = d.id
+        where e.id = #{id}
+    </select>
+
+    <!-- 级联查询结果集，内部圈套内部对象resultMap -->
+    <resultMap id="res_employee_assoc2" type="com.tu.mybatisDemo.entity.Employee">
+        <id property="id" column="id"/>
+        <result property="lastName" column="last_name"/>
+        <result property="gender" column="gender"/>
+        <result property="email" column="email"/>
+        <association property="dept" javaType="com.tu.mybatisDemo.entity.Department">
+            <result property="id" column="id"/>
+            <result property="deptName" column="dept_name"/>
+        </association>
+    </resultMap>
+
+    <select id="getEmployeeByOneAssoc2" resultMap="res_employee_assoc2">
+        select e.id id, e.last_name last_name, e.gender gender, e.email email, d.id did, d.dept_name dept_name
+        from tbl_employee e
+        left join tbl_department d on e.dept_id = d.id
+        where e.id = #{id}
+    </select>
+
+    <!-- 级联查询结果集，分步查询结果 -->
+    <resultMap id="res_employee_assoc3" type="com.tu.mybatisDemo.entity.Employee">
+        <id property="id" column="id"/>
+        <result property="lastName" column="last_name"/>
+        <result property="gender" column="gender"/>
+        <result property="email" column="email"/>
+        <association property="dept" column="dept_id" javaType="com.tu.mybatisDemo.entity.Department"
+                     select="com.tu.mybatisDemo.entity.Mapping.DepartmentMapping.getDepartmentOne">
+        </association>
+    </resultMap>
+
+    <!-- 根据多个条件查询employee -->
+    <select id="getEmployeeByOneAssoc3" resultMap="res_employee_assoc3">
+        select id, last_name, gender, email from tbl_employee where id = #{id}
+    </select>
+
+
+</mapper>

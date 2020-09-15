@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx
+       https://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/tx/spring-aop.xsd
+       http://www.springframework.org/schema/context">
+
+    <!-- 加载配置文件 -->
+    <context:property-placeholder file-encoding="utf-8" location="classpath:conf/datasource.properties"/>
+
+    <!-- 配置数据源 alibaba druid数据库源 -->
+    <bean id = "datasource" class = "com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${datasource.driverClassName}"/>
+        <property name="url" value="${datasource.url}"/>
+        <property name="username" value="${datasource.username}"/>
+        <property name="password" value="${datasource.password}"/>
+    </bean>
+    <!-- 配置事务管理 -->
+    <bean id = "transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+    <!-- 开启事务注解 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!-- 配置事务传播属性 -->
+    <tx:advice id="transactionAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <!-- propagation 事务传播级别， isolation 事务隔离级别 -->
+            <tx:method name="add*" propagation="REQUIRED" isolation="READ_UNCOMMITTED"/>
+        </tx:attributes>
+    </tx:advice>
+    <!-- 配置事务切面 -->
+    <aop:config>
+        <aop:pointcut id="transactionPointcut" expression="execution(public * com.tu.springboot005.service.*.*(..))"/>
+        <aop:advisor advice-ref="transactionAdvice" pointcut-ref="transactionPointcut"/>
+        <aop:aspect />
+    </aop:config>
+
+
+</beans>

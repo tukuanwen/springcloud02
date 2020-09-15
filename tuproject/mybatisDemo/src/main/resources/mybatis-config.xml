@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 导入外部参数文件，resource为类路径下，url为网络文件或磁盘路径 -->
+    <properties resource="database.properties"></properties>
+    <!-- settings 设置mybatis重要的参数调整，可以改变mybatis的运动行为。
+        例如：设置mybatis日志打印方式为log4j2
+     -->
+    <settings>
+        <setting name="logImpl" value="LOG4J2"/>
+        <setting name="jdbcTypeForNull" value="NULL"></setting>
+    </settings>
+    <!-- 为类取别名
+        1、typeAlias为单个类取别名
+        2、package对包路径取别名，包路径下的类默认别名为类名首字母小写-->
+    <typeAliases>
+        <typeAlias alias="emp" type="com.tu.mybatisDemo.entity.Employee"></typeAlias>
+        <package name="com.tu.mybatisDemo.entity"/>
+    </typeAliases>
+
+    <!-- typeHandlers mybatis的设置预处语句(PreparedStatement)中的参数或从结果中取出一个值，都会用类型处理器将获取的值以合适的方式转换成java类型-->
+    <typeHandlers>
+        <!--<typeHandler handler="PreparedStatement"/>-->
+    </typeHandlers>
+    
+    <!-- 配置环境，可以配置多个 -->
+    <environments default="development">
+        <!-- 环境1 -->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+        <!-- 环境2 -->
+        <environment id="mydevelopment">
+            <!-- 事务配置，有两种设置模式JDBC(JdbcTransactionFactory)、MANAGED(ManagedTransactionFactory) -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 数据源配置dataSource -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- databaseIdProvider 数据库厂商标识， -->
+    <databaseIdProvider type="DB_VENDOR">
+        <property name="MySql" value="mysql"/>
+        <property name="SQL Server" value="sqlserver"/>
+        <property name="DB2" value="db2"/>
+        <property name="Oracle" value="oracle" />
+    </databaseIdProvider>
+
+    <!-- mappers映射器(注册) resource类路径下、 url网络路径或磁盘路径、 class接口类路径 -->
+    <mappers>
+        <mapper resource="EmployeeMapping.xml"/>
+    </mappers>
+</configuration>

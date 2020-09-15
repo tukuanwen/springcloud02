@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tu.springboot005.dao.mapper.EmployeeMapper">
+
+    <cache type="org.mybatis.caches.redis.RedisCache" />
+    <resultMap id="employee" type="com.tu.springboot005.entity.Employee">
+
+        <id property="id" column="id"/>
+        <result property="lastName" column="last_name"/>
+        <result property="gender" column="gender"/>
+        <result property="email" column="email"/>
+        <!--<association property="dept" column="dept_id" />-->
+    </resultMap>
+
+    <select id="getOneEmployee2" resultMap="employee">
+        select id, last_name, gender, email from tbl_employee where id = #{id}
+    </select>
+
+    <insert id="incrOneEmployee" >
+        insert into tbl_employee(last_name, gender, email, dept_id)
+        values(#{lastName},#{gender},#{email},#{dept.id})
+    </insert>
+
+
+</mapper>
