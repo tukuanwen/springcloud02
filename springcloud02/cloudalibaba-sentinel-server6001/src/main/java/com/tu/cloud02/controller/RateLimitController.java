@@ -25,7 +25,12 @@ public class RateLimitController {
 
         String fallStr = "kkkkkkkkkkkkkkkkkkkkkkkkkk";
 
+<<<<<<< HEAD
         String kehuduan = "客户端进行了修改";
+=======
+        String changku = "仓库文件进行修改";
+
+>>>>>>> 83b612e116cf7520f8b5421b3b85b70a88729605
 
         return "程序异常，主动降级！";
     }
