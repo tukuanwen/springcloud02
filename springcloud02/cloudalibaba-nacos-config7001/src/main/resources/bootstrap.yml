@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: cloudalibaba-nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.36.128:8848
+      config:
+        server-addr: 192.168.36.128:8848
+        file-extension: yaml
+
+  profiles:
+    active: dev

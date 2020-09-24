@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: cloudalibaba-nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.36.128:8848

@@ -1,0 +1,36 @@
+#\u7AEF\u53E3
+server:
+  port: 3344
+#\u670D\u52A1\u540D\u79F0
+spring:
+  application:
+    name: cloud-config-service
+  cloud:
+    config:
+      server:
+        git:
+          skipSslValidation: true # \u8DF3\u8FC7ssl\u8BA4\u8BC1
+          uri: https://github.com/tukuanwen/springcloud01.git
+          search-paths: springcloud01
+          username: tukuanwen@foxmail.com
+          password: TU123kw098
+      label: master
+  #rabbitMq\u914D\u7F6E
+  rabbitmq:
+    host: 192.168.36.128
+    port: 5672
+    username: admin
+    password: admin
+
+#eureka \u914D\u7F6E
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+# \u66B4\u9732bus\u5237\u65B0\u914D\u7F6E\u7684\u7AEF\u70B9,\u624B\u52A8\u5237\u65B0\u670D\u52A1\u7AEFcurl -X POST "http://localhost:3344/actuator/bus-refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

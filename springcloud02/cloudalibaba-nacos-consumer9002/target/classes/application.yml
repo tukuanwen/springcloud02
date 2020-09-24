@@ -1,0 +1,10 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: cloudalibaba-nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.36.128:8848

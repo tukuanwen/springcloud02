@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-client3355" />
+        <module name="cloud-config-client3366" />
+        <module name="cloud-config-server3344" />
+        <module name="cloud-stream-consumer8802" />
+        <module name="cloud-stream-consumer8803" />
+        <module name="cloud-stream-provider8801" />
+        <module name="cloudalibaba-nacos-config7001" />
+        <module name="cloudalibaba-nacos-config7002" />
+        <module name="cloudalibaba-nacos-consumer9002" />
+        <module name="cloudalibaba-nacos-server9001" />
+        <module name="cloudalibaba-sentinel-openFeign-server9003" />
+        <module name="cloudalibaba-sentinel-server6001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>
