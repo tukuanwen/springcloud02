@@ -22,6 +22,9 @@ public class RateLimitController {
     }
 
     public String fallbackException(){
+
+        String fallStr = "kkkkkkkkkkkkkkkkkkkkkkkkkk";
+
         return "程序异常，主动降级！";
     }
 
