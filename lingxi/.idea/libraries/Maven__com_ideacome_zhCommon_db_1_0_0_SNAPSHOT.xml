@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:zhCommon-db:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/zhCommon-db/1.0.0-SNAPSHOT/zhCommon-db-1.0.0-20201021.080107-113.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/zhCommon-db/1.0.0-SNAPSHOT/zhCommon-db-1.0.0-20201021.080107-113-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/zhCommon-db/1.0.0-SNAPSHOT/zhCommon-db-1.0.0-20201021.080107-113-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

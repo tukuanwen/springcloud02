@@ -17,7 +17,11 @@ public class FlowLimitController {
     @GetMapping("/testB")
     public String testB() {
         int a = 10 / 0;
+
+        String aa = "实现自动重启----------------";
+
         return "testB";
+
     }
 
 

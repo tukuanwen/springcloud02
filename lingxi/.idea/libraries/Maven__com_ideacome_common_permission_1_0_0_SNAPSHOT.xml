@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:common-permission:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-permission/1.0.0-SNAPSHOT/common-permission-1.0.0-20200902.082926-680.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-permission/1.0.0-SNAPSHOT/common-permission-1.0.0-20200902.082926-680-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-permission/1.0.0-SNAPSHOT/common-permission-1.0.0-20200902.082926-680-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

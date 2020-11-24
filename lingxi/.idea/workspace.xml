@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b610568-8dc9-4b49-ab14-5e23f3822fa8" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../dubbozkdemo/dubbozkapi/src/main/java/com/tu/dubbozkapi/services/DubbozkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbozkdemo/dubbozkapi/src/main/java/com/tu/dubbozkapi/services/impl/DubbozkServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbozkdemo/dubbozkconsumer/src/main/java/com/tu/dubbozkconsumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbozkdemo/dubbozkprovider/src/main/java/com/tu/dubbozkprovider/services/MistraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbozkdemo/dubbozkprovider/src/main/java/com/tu/dubbozkprovider/services/impl/MistraServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/java/com/tu/cloud02/SentinelOpenFeignMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/java/com/tu/cloud02/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/java/com/tu/cloud02/controller/SentinelOpenFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/java/com/tu/cloud02/services/SentinelProviderServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-client8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/src/main/java/com/tu/cloud02/SentinelOpenFeignMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/src/main/java/com/tu/cloud02/controller/SentinelOpenFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/src/main/java/com/tu/cloud02/handler/CommonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9004/src/main/java/com/tu/cloud02/SentinelOpenFeignMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9004/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloud-config-server3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloud-config-server3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloud-stream-consumer8802/target/classes/com/tu/cloud02/controller/StreamConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloud-stream-consumer8802/target/classes/com/tu/cloud02/controller/StreamConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloud-stream-consumer8803/target/classes/com/tu/cloud02/controller/StreamConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloud-stream-consumer8803/target/classes/com/tu/cloud02/controller/StreamConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-nacos-config7001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-nacos-config7001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-nacos-config7001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-nacos-config7001/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-nacos-server9001/target/classes/META-INF/cloudalibaba-nacos-client9001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-openFeign-server9003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/src/main/java/com/tu/cloud02/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/src/main/java/com/tu/cloud02/controller/FlowLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/src/main/java/com/tu/cloud02/controller/RateLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/src/main/java/com/tu/cloud02/controller/RateLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/target/classes/com/tu/cloud02/controller/FlowLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/target/classes/com/tu/cloud02/controller/FlowLimitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/target/classes/com/tu/cloud02/controller/RateLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/cloudalibaba-sentinel-server6001/target/classes/com/tu/cloud02/controller/RateLimitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud02/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../10beiManager/target/" />
+    <ignored path="$PROJECT_DIR$/../10bei/target/" />
+    <ignored path="$PROJECT_DIR$/../vehicle_backend_api/target/" />
+    <ignored path="$PROJECT_DIR$/../shattrath/shattrath-api/target/" />
+    <ignored path="$PROJECT_DIR$/../shattrath/shattrath-core/target/" />
+    <ignored path="$PROJECT_DIR$/../shattrath/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/qa/config.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/common/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/publisher/RabbitMQPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/service/spri/OnsQueueService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3485">
+              <caret line="248" column="60" selection-start-line="248" selection-start-column="60" selection-end-line="248" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/dto/OrderOnsBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/configservice/TelSalePushConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/controller/agency/AgencyInsurAccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+              <folding>
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/service/agency/AgencyInsurAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/dto/DataTablesGrid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>saveLogs</find>
+      <find>rabbitmq.host</find>
+      <find>/ideacome/shattrath</find>
+      <find>config.server.group</find>
+      <find>dubbo.application.protocol</find>
+      <find>system.environment</find>
+      <find>mobile/confirmDetail</find>
+      <find>doInitCarInfo</find>
+      <find>doEnterCarInfo</find>
+      <find>doEn</find>
+      <find>doC</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../10bei/src/main/resources/config/cache.properties" />
+        <option value="$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/configserver_bak/qa.properties" />
+        <option value="$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/handler/BonusHandler.java" />
+        <option value="$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/configservice/TelSalePushConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="generatedSourcesFolder" value="GENERATED_SOURCE_FOLDER" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1945" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10bei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="configservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shibei" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="agency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10beiManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="configserver_bak" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="regress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shattrath" type="462c0819:PsiDirectoryNode" />
+              <item name="shattrath-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="epiccCity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lingxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_backend_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tpaicsign" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605779030542" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/cn/ideacome/dubbo-consumer/1.0.3/dubbo-consumer-1.0.3.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21752904" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vehicleBackApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.shibei.springboot.runner.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShattrathApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shattrath-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ideacome.shattrath.ShattrathApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b610568-8dc9-4b49-ab14-5e23f3822fa8" name="默认更改列表" comment="" />
+      <created>1602232215179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602232215179</updated>
+      <workItem from="1602232216498" duration="10030000" />
+      <workItem from="1602642455575" duration="9204000" />
+      <workItem from="1603781623902" duration="599000" />
+      <workItem from="1603935717883" duration="627000" />
+      <workItem from="1604837007862" duration="1890000" />
+      <workItem from="1604970761444" duration="11972000" />
+      <workItem from="1605489845469" duration="10918000" />
+      <workItem from="1605535563189" duration="21944000" />
+      <workItem from="1605836625010" duration="2083000" />
+      <workItem from="1606094736282" duration="1761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71028000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="设计器" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.6529745" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24929178" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="调试" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.23123324" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="调色板" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/commons/utils/LogMongoDBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/remote/dubbo/InsureServiceConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+          <folding>
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/insurance/src/cn/shibei/insurance/service/company/InsureRPCHelperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="246" column="45" selection-start-line="246" selection-start-column="28" selection-end-line="246" selection-end-column="45" />
+          <folding>
+            <element signature="e#30784#30785#0" expanded="true" />
+            <element signature="e#30803#30804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/insurance/InsuranceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="199" column="51" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/commons/client/InitialPremiumManagerCellHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/GiftTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/InitTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/ChannelPushTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/CallBackCheckOrPayTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/CallBackTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="300" column="33" selection-start-line="300" selection-start-column="33" selection-end-line="300" selection-end-column="33" />
+          <folding>
+            <element signature="e#7410#7411#0" expanded="true" />
+            <element signature="e#7454#7455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/controller/handler/MonitorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/PremiumCalculateTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="920" column="46" selection-start-line="920" selection-start-column="46" selection-end-line="920" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14219#21572#0" expanded="true" />
+            <element signature="e#21571#21572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/task/AutomaticPremiumTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="526" column="47" selection-start-line="526" selection-start-column="28" selection-end-line="526" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/remote/dubbo/ShibeiRemoteServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="290" column="50" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/controller/xiaofeixia/XiaofeixiaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="277" column="34" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/commons/client/PremiumManageCellHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/controller/automatic/AutomaticController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10bei/src/main/java/cn/shibei/core/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="780" column="55" selection-start-line="780" selection-start-column="36" selection-end-line="780" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/config/RabbitMessageQueueConfigBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/config/RabbitMessageQueueConfigListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/config/RabbitMessageQueueConfigPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/handler/DocsAuditResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1527">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/listener/DocsAuditResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/publisher/CopperMessagePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.10.RELEASE/spring-rabbit-1.7.10.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="374" column="16" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE.jar!/org/springframework/data/redis/connection/RedisConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1077">
+          <caret line="1708" column="16" selection-start-line="1708" selection-start-column="12" selection-end-line="1708" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/publisher/RabbitMQBehaviorRecordPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/handler/BonusHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/cache/reader/CacheReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/redis/telsale/RedisConnectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/controller/shell/msgCenter/ShellMsgConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="238" column="59" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/redis/telsale/TelSalesRedisConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/resources/config/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/resources/config/redis-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/resources/config/redis-regress.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/configserver_bak/qa.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/dev/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/prod/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/qa/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shattrath/shattrath-core/src/main/resources/config/common/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/mq/publisher/RabbitMQPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/service/spri/OnsQueueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="248" column="60" selection-start-line="248" selection-start-column="60" selection-end-line="248" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/dto/OrderOnsBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/configservice/TelSalePushConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/dto/DataTablesGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/controller/agency/AgencyInsurAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+          <folding>
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10beiManager/src/main/java/cn/shibei/service/agency/AgencyInsurAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>10beiManager:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mavenchangku</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21752904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21752904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shattrath</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21752904" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21752904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

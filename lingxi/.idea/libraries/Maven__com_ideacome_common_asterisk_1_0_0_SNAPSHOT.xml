@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:common-asterisk:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-asterisk/1.0.0-SNAPSHOT/common-asterisk-1.0.0-20200902.082907-763.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-asterisk/1.0.0-SNAPSHOT/common-asterisk-1.0.0-20200902.082907-763-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-asterisk/1.0.0-SNAPSHOT/common-asterisk-1.0.0-20200902.082907-763-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

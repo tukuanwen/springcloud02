@@ -12,9 +12,18 @@ public class RateLimitController {
     @SentinelResource(value = "byResource", blockHandler = "handleException", fallback = "fallbackException")
     public String byResource(){
 
-        int a = 10 / 0;
+//        int a = 10 / 0;
         return "访问正常，正确返回！";
     }
+
+    @GetMapping("/path/url")
+    @SentinelResource(value = "url")
+    public String byUrl(){
+
+        return "url测试验证";
+    }
+
+
 
     public String handleException(BlockException blockerException){
 

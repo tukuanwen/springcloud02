@@ -16,7 +16,9 @@
         <module name="cloudalibaba-nacos-config7002" />
         <module name="cloudalibaba-nacos-consumer9002" />
         <module name="cloudalibaba-nacos-server9001" />
+        <module name="cloudalibaba-sentinel-openFeign-client8001" />
         <module name="cloudalibaba-sentinel-openFeign-server9003" />
+        <module name="cloudalibaba-sentinel-openFeign-server9004" />
         <module name="cloudalibaba-sentinel-server6001" />
       </profile>
     </annotationProcessing>

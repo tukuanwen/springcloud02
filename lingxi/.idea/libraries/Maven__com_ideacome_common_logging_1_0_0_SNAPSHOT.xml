@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:common-logging:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-logging/1.0.0-SNAPSHOT/common-logging-1.0.0-20201028.062100-191.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-logging/1.0.0-SNAPSHOT/common-logging-1.0.0-20201028.062100-191-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/common-logging/1.0.0-SNAPSHOT/common-logging-1.0.0-20201028.062100-191-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -11,6 +11,5 @@ spring:
       config:
         server-addr: 192.168.36.128:8848
         file-extension: yaml
-
   profiles:
     active: dev

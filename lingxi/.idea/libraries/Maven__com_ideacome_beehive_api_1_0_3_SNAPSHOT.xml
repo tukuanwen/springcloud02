@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:beehive-api:1.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/beehive-api/1.0.3-SNAPSHOT/beehive-api-1.0.3-20190823.012651-150.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/beehive-api/1.0.3-SNAPSHOT/beehive-api-1.0.3-20190823.012651-150-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/beehive-api/1.0.3-SNAPSHOT/beehive-api-1.0.3-20190823.012651-150-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

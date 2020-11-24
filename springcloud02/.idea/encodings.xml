@@ -12,7 +12,9 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-nacos-config7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-nacos-consumer9002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-nacos-server9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-openFeign-client8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-openFeign-server9003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-openFeign-server9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-server6001" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

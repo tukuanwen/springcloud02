@@ -1,0 +1,16 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: sentinel-openFeign-server
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.36.128:8848
+
+      config:
+        server-addr: 192.168.36.128:8848
+        file-extension: yaml
+  profiles:
+    active: dev

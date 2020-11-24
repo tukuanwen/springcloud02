@@ -21,6 +21,8 @@
         <module>cloudalibaba-nacos-config7002</module>
         <module>cloudalibaba-sentinel-server6001</module>
         <module>cloudalibaba-sentinel-openFeign-server9003</module>
+        <module>cloudalibaba-sentinel-openFeign-server9004</module>
+        <module>cloudalibaba-sentinel-openFeign-client8001</module>
     </modules>
 
     <!--统一管理jar包和版本-->
@@ -107,6 +109,7 @@
      会打包成一个可以直接运行的 JAR 文件，使用“java -jar”命令就可以直接运行。这在很大程度上简化了应用的部署，只需要安装了 JRE 就可以运行
      -->
     <build>
+        <finalName>springcloud02</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -133,7 +136,5 @@
             </snapshots>
         </repository>
     </repositories>
-
-
 
 </project>

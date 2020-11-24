@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome.dalaran:dalaran-api:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/dalaran/dalaran-api/0.0.1-SNAPSHOT/dalaran-api-0.0.1-20201110.011612-498.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/dalaran/dalaran-api/0.0.1-SNAPSHOT/dalaran-api-0.0.1-20201110.011612-498-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/dalaran/dalaran-api/0.0.1-SNAPSHOT/dalaran-api-0.0.1-20201110.011612-498-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

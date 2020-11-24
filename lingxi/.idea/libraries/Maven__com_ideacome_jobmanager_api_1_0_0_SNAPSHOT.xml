@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:jobmanager-api:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/jobmanager-api/1.0.0-SNAPSHOT/jobmanager-api-1.0.0-20180912.014007-50.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/jobmanager-api/1.0.0-SNAPSHOT/jobmanager-api-1.0.0-20180912.014007-50-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/jobmanager-api/1.0.0-SNAPSHOT/jobmanager-api-1.0.0-20180912.014007-50-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

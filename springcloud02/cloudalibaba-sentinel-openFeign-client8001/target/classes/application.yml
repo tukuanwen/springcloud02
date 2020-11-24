@@ -1,0 +1,4 @@
+
+logging:
+  level:
+    com.tu.cloud01.services.PaymentServices: debug

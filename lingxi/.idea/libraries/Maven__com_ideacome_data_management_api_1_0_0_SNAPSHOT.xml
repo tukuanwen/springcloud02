@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:data-management-api:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/data-management-api/1.0.0-SNAPSHOT/data-management-api-1.0.0-20180222.020347-122.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/data-management-api/1.0.0-SNAPSHOT/data-management-api-1.0.0-20180222.020347-122-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/data-management-api/1.0.0-SNAPSHOT/data-management-api-1.0.0-20180222.020347-122-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

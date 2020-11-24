@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../10bei/10bei.iml" filepath="$PROJECT_DIR$/../10bei/10bei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../10beiManager/10beiManager.iml" filepath="$PROJECT_DIR$/../10beiManager/10beiManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shattrath/shattrath.iml" filepath="$PROJECT_DIR$/../shattrath/shattrath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shattrath/shattrath-api/shattrath-api.iml" filepath="$PROJECT_DIR$/../shattrath/shattrath-api/shattrath-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shattrath/shattrath-core/shattrath-core.iml" filepath="$PROJECT_DIR$/../shattrath/shattrath-core/shattrath-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vehicle_backend_api/vehicleBackApi.iml" filepath="$PROJECT_DIR$/../vehicle_backend_api/vehicleBackApi.iml" />
+    </modules>
+  </component>
+</project>

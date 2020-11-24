@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ideacome:mulgore-api:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/mulgore-api/1.0.0-SNAPSHOT/mulgore-api-1.0.0-20201109.055017-97.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/mulgore-api/1.0.0-SNAPSHOT/mulgore-api-1.0.0-20201109.055017-97-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/ideacome/mulgore-api/1.0.0-SNAPSHOT/mulgore-api-1.0.0-20201109.055017-97-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

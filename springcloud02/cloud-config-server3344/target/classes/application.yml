@@ -4,7 +4,7 @@ server:
 #\u670D\u52A1\u540D\u79F0
 spring:
   application:
-    name: cloud-config-server
+    name: cloud-config-service
   cloud:
     config:
       server:
